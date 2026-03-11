@@ -62,6 +62,7 @@ export interface Position {
   profit_loss: number;
   profit_rate: number;
   market_value: number;
+  day_profit_loss?: number;
   created_at: string;
 }
 
